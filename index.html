@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit"> <!--若页面需默认用极速核，增加此标签しょ-->
+	<title>肖帆の自己紹介</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico"><!--用于在浏览器地址栏里显示的图片-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script><!--引用微软的jQuery,把 jQuery 添加到网页中<script> 标签用于定义客户端脚本，比如 JavaScript-->
+	<script src="lib/navFixed.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<section id="block-firstPage"> <!--<section> 标签定义文档中的节（section、区段）-->
+		<p class="blockTitle">こんにちは</p>
+		<div id="firstPage-down"><a href="#block-intro" ></a></div><!--hideFocus即隐藏聚焦，具有使对象聚焦失效的功能-->
+	</section><!--<a> 标签定义超链接，用于从一张页面链接到另一张页面。<a> 元素最重要的属性是 href 属性，它指示链接的目标。-->
+
+	
+	<section id="block-nav">
+		<header class="container">
+			<a class="l" href="#block-firstPage" id="logo"  >肖 帆 （しょう ほ）</a>
+			<nav class="r">
+				<a href="#block-intro" id="nav-intro" >自己紹介</a>
+				<a href="#block-skill" id="nav-skill" >専門技術</a>
+				<a href="#block-workEXP" id="nav-workEXP" >学歴職歴</a>
+				<a href="#block-prjEXP" id="nav-prjEXP" >プロジェクト</a>
+				<a href="#block-mail" id="nav-mail" >イーメール</a>
+			</nav>
+		</header>
+	</section>
+
+	<section id="block-intro">
+		<div class="container">
+			<div id="intro-icon">
+				<img id="myPhoto" src="img/myphoto.png">
+				<a class="link" href="https://github.com/syoho" id="link-github"  ></a>
+				<a class="link" href="mailto:syoho.xiaofan@gmail.com" id="link-email"></a>
+			</div>
+			
+			<div id="intro-text">
+				<ul class="l">
+					<li><span>氏名</span> | 肖 帆</li>    <!--<span> 在CSS定义中属于一个行内元素,在行内定义一个区域-->
+					<li><span>性別</span> | 男性</li>
+					<li><span>生年月日</span> | 1995年07月26日 </li>
+					<li><span>現住所</span> | 中国-浙江-嘉兴</li>
+					<li><span>携帯電話番号 </span> | （+86）130-8561-0711</li>
+					<li><span>メールアドレス</span> | <a href="mailto:syoho.xiaofan@gmail.com"  >syoho.xiaofan@gmail.com</a>
+					<li><span>GitHub</span> | <a href="https://github.com/syoho"  >クリック</a> </li>
+				</ul>
+				<div class="r">
+					<p>私はコンピュータに興味があります。
+						<br>今、大学のコンピュータ学部で、ソフトウェアサイエンス学科を勉強しています。　　　
+						<br>大学で、プログラミングを積極的に学んでおり、ウェブ開発とアプリケーション開発もしています。</p>
+					<p>それと、私は日本語学科ではありませんが、日本の文化にとても興味があり、現在も日本語を勉強しています。
+						<br>
+						日本語能力試験は３級しかありませんが、今年中に２級に合格できるよう、毎日努力しています。<br>
+						将来、日本で日本の会社で働くことが、私の夢です。
+					</p>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section id="block-skill">
+		<div class="container">
+			<div class="skill-title">
+				<h2>専 門 技 術</h2>
+			</div>
+			<div class="skills">
+				<ul class="skill-tec">
+					<li>技 術</li>
+					<li>Java</li>
+					<li>Android</li>
+					<li>HTML</li>
+					<li>CSS</li>
+				</ul>
+				<ul class="skill-lic">
+					<li>資 格</li>
+					<li>日本語能力試験　Ｎ３</li>
+					<li>全国大学英語試験四級（ＣＥＴ－４）</li>
+					<li>全国コンピュータ等級試験Ｃ＋＋二級</li>
+					<li>全国コンピュータ等級試験ネットワークテスト三級</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="block-workEXP">
+		<div class="container">
+			<div class="work-title">
+				<h2>学 歴 職 歴</h2>
+			</div>
+			<div class="workEXP-main">
+				<ul class="timebox">
+					<li class="time0">2016.07 - 2016.08</li>
+					<li class="time1">2014.09 - 現在に至る</li>
+				</ul>
+				<div class="timeline"></div>
+				<ul class="workbox">
+					<li class="work-intro0">
+						<label class="work-place">桐郷市方格企業管理諮詢株式会社</label>
+						<label class="work-do">企業のウェブとSNSを編集しました(アルバイト)</label>
+					</li>
+					<li class="work-intro1">
+						<label class="work-place">青海民族大学</label>
+						<label class="work-do">コンピュータ学部 ソフトウェアサイエンス学科 在学中</label>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="block-prjEXP">
+		<div class="container">
+			<div class="prjEXP-title">
+				<h2>プロジェクト</h2>
+			</div>
+			<ul class="prjs">
+
+
+
+				<li class="prj" id="prj-android">
+					<a class="prj-link" href="https://github.com/syoho" id="link-prj-android"  ></a>
+					<h3 class="prj-title"><a href="index.html" target="_blank">アプリケーション</a></h3> <!--target 属性规定在何处打开页面上的所有链接。_blank	在新窗口中打开被链接文档-->
+					<p class="prj-intro">アンドロイドの天気情報についてアプリケーション。</p>
+				</li>
+
+
+				<li class="prj" id="prj-web">
+					<a class="prj-link" href="https://github.com/syoho" id="link-prj-web"></a>
+					<h3 class="prj-title"><a href="index.html" target="_blank">個人のホームページ</a></h3>
+					<p class="prj-intro">他人のウェブを参考にして、自分で作った個人のホームページ。</p>
+				</li>
+
+
+
+			</ul>
+		</div>
+	</section>
+
+	<section id="block-mail">
+		<p>ご連絡いただきますようお願いいたします
+		<br/>
+			<br/>
+			<a href="mailto:syoho.xiaofan@gmail.com" id="mail" >syoho.xiaofan@gmail.com</a>
+		</p>
+	</section>
+
+	<!-- 百度统计代码 -->
+	<div style="display:none">
+		<script type="text/javascript">
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8085b1bdc385f6af2b23b10f74eedded' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	</div>
+
+</body>
+</html>

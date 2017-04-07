@@ -1,0 +1,91 @@
+/* public */
+section{width:100%; overflow: hidden;}
+.container{margin:0 auto; width:1140px; height:100%;z-index:0;}
+h2 {font-size:46px; font-weight:normal;}
+
+/* first page */
+#block-firstPage{height:1000px; width:100%; background-color:#89cff0; font-size: 100px; color:white; text-align: center;}
+.blockTitle{display:none; position:absolute; margin:0 auto; width:100%;}/*none	此元素不会被显示。block	此元素将显示为块级元素，此元素前后会带有换行符。inline	默认。此元素会被显示为内联元素，元素前后没有换行符。*/
+#firstPage-down{position:absolute; bottom:16px; height:18px; width:100%;}
+#firstPage-down a{display:block; height:18px; width:32px; margin:0 auto; background:url(../img/down.png) no-repeat center}
+
+/* nav */
+#block-nav {position:relative; top:0; height:52px; background-color:#42474B; color:white; }
+#block-nav a{padding:0 25px; font-size:14px; line-height:52px; cursor:pointer; z-index: 1; color:white;}
+#block-nav a:hover{color:#999;}
+#logo{display: inline-block;}
+
+/* block-intro */
+#block-intro {height:auto; width:100%; background-color:#1889C5; padding:60px 0 100px;}
+#intro-icon  {height:300px; width:100%; line-height:300px;}
+.link        {display:inline-block; height:100px; width:100px; }
+.link:hover  {opacity:0.4;}
+#myPhoto       {height:270px; width:270px; display:inline-block; margin:30px 0 0 110px;}/*将对象呈现为inline对象，但是对象的内容作为block对象呈现。之后的内联对象会被排列在同一行内。比如我们可以给一个link（a元素）inline-block属性值，使其既具有block的宽度高度特性又具有inline的同行特性*/
+#link-github   {background:url(../img/github.png) no-repeat center; margin:0 0 85px 250px;}
+#link-email    {background:url(../img/email.png) no-repeat center; margin:0 0 85px 80px;}
+#intro-text    {display:inline-block; margin:60px 0 0 80px; color:white;}
+#intro-text li {height:30px;}
+#intro-text ul li a {display:inline-block;}
+#intro-text ul li a:hover {border-bottom:2px solid white;}/*border-bottom 简写属性把下边框的所有属性设置到一个声明中*/
+#intro-text ul li span {display:inline-block; text-align:right; width:150px;}
+#intro-text div {display:inline-block; width:550px; margin-left:120px;}
+/*#intro-text>div>p {margin-bottom:26px;}*/
+
+/* block-skill */
+#block-skill {height:auto; width:100%; background-color:#82C8E6; color:#FFFFFF; padding-bottom:160px; }
+#block-skill .skill-title {width:350px; margin:0 auto; padding-top:100px; text-align:center;}
+#block-skill .skills {height:auto; width:auto;}
+.skill-tec {display:inline-block; height:auto; width:465px; margin:80px 0 0 50px; border:2px solid #FFFFFF; font-size:20px; text-align: center; vertical-align: top;}
+.skill-lic {display:inline-block; height:auto; width:465px; margin:80px 0 0 100px; border:2px solid #FFFFFF; font-size:20px; text-align: center; vertical-align: top;}/*solid	定义实线*/
+#block-skill li {height:40px; line-height:35px;}/*line-height 属性设置行间的距离（行高）*/
+#block-skill li:first-child {background-color:#FFFFFF; color:#333;}/*:first-child 选择器用于选取属于其父元素的首个子元素的指定选择器*/
+#block-skill li:hover{background-color:#FFFFFF; color:#333; cursor:default;}
+
+/* block-workEXP */
+#block-workEXP {height:auto; width:100%; background-color:#26B1B6; color:#e7e7e7;padding:100px 0 160px 0;}
+#block-workEXP .work-title {width:300px; margin:0 auto; text-align:center;}
+#block-workEXP .workEXP-main {height:auto; width:auto; margin:100px 0 0 60px;}
+#block-workEXP .timebox {margin-left:190px; font-size:29px;}
+#block-workEXP .timebox li{display:inline-block; margin-top:5px;}
+#block-workEXP .time1 {margin-left:80px}
+#block-workEXP .timeline {height:25px; width:100%; margin-left:10px; background:url(../img/timeline.png) no-repeat center;}
+#block-workEXP .workbox  {margin-left:80px;}
+#block-workEXP .workbox li{display:inline-block; width:300px;vertical-align:top;margin-left:80px}/*vertical-align 属性设置元素的垂直对齐方式。*/
+#block-workEXP .workbox li label{display:block;}
+#block-workEXP .workbox .work-place {font-size:25px;}
+#block-workEXP .workbox .work-do {margin-top:10px; font-size:20px;}
+
+/* block-prjEXP */
+#block-prjEXP {padding:50px 0 100px 0; width:100%; background-color:#129DE7; color:#FFFFFF;}
+#block-prjEXP .prjEXP-title {width:300px; margin:30px auto; text-align:center;}
+#block-prjEXP .prjs {height:auto; width:100%; margin-top:100px; overflow:hidden;} /*隐藏溢出,消除浮动*/
+#block-prjEXP .prj {float:left; height:auto; width:240px;}
+
+#block-prjEXP .prj .prj-logo {display:block; margin:0 auto; height:180px; width:180px; border-radius:50%;}
+#block-prjEXP .prj .prj-title {height:auto; width:240px; margin:20px 0; font-size:26px; text-align:center;}
+#block-prjEXP .prj .prj-title a:hover{border-bottom: 3px solid white ;}
+#block-prjEXP .prj .prj-intro {height:auto; width:240px; font-size:20px; }/*text-indent:段落缩进*/
+
+#block-prjEXP .prj .prj-link{display:block;margin:0 auto;height:180px;width:180px;border-radius:50%}
+#block-prjEXP .prj .prj-link:hover{opacity: 0.4;}
+
+#block-prjEXP #prj-android .prj-link   {background:#FFFFFF url(../img/app.png) no-repeat center; border:4px solid #FFFFFF; }
+#block-prjEXP #prj-web .prj-link {background:#FFFFFF url(../img/web.png) no-repeat center;border:4px solid #FFFFFF; }
+#block-prjEXP #prj-android {margin-left: 220px;}
+#block-prjEXP #prj-web{margin-left: 220px;}
+
+
+
+
+
+
+
+
+/* block-mail */
+#block-mail {width:100%; background-color:#ED6461; color:#fff;}
+#block-mail>p { position:relative; margin:0 auto; width:100%; text-align:center; font-size: 30px;}
+#block-mail #mail{magain-left:100px;}
+#block-mail #mail:hover{border-bottom: 3px solid white ;}
+
+/* 百度统计 */
+body>a {height:0;}

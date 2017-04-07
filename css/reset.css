@@ -1,0 +1,10 @@
+*{margin:0;padding:0;font-family:"Microsoft YaHei"}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img{border:none;}
+li{list-style:none;}
+a{text-decoration:none; color:white;}
+.l{float:left;}
+.r{float:right;}　/*float 属性定义元素浮动到左侧或右侧。以往这个属性总应用于图像，使文本围绕在图像周围，不过在 CSS 中，任何元素都可以浮动。*/
+
+/*果たしている役割　CSS reset的作用是让各个浏览器的CSS样式有一个统一的基准，而这个基准更多的就是“清零”*/
+
